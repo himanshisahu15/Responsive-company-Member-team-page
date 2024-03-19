@@ -1,0 +1,82 @@
+/* Resetting default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3; /* Background color for the body */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header p {
+    color: #fff;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    color: #333; /* Color for section headings */
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Box shadow for cards */
+    transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+    transform: translateY(-5px); /* Hover effect to elevate the card */
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.member-info h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+    color: #333; /* Color for member names */
+}
+
+.member-info p {
+    font-size: 0.9rem;
+    color: #666; /* Color for member roles */
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
